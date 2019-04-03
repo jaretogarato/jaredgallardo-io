@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+
+<!-- 
+	
+Video player in gallery does not currently support other file types, like .mp4 or .flv, but the developer can add that feature upon request.
+
+<fullsize> contains the path to each full size image in the gallery, or the URL to the vimeo or youtube video
+
+ACCEPTABLE VIMEO FORMATS FOR <fullsize>
+	http://vimeo.com/63918436
+	http://www.vimeo.com/63918436
+	http://player.vimeo.com/video/63918436
+	63918436
+
+
+ACCEPTABLE YOUTUBE FORMATS FOR <fullsize>
+	http://www.youtube.com/watch?v=dgspCfmtcoE
+	http://www.youtube.com/embed/dgspCfmtcoE
+	dgspCfmtcoE
+	
+
+ACCEPTABLE PHOTO FORMATS FOR <fullsize> (you must include the folder name like this example - use any folders you want)
+	gallery/lightning.jpg
+
+
+* * * Everything between <![CDATA[ and ]]> tags will enable HTML code to be implemented, for example...
+
+<description><![CDATA[
+	<b>Lorem ipsum</b> dolor sit amet, <a href="http://www.themeforest.net/user/egobuilders" target="_blank">consectetuer adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+]]></description>
+
+-->
+
+<gallery>
+  <media>	
+      <fullsize>
+        gallery/DSC_5638_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5638_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5643_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5643_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5656_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5656_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5664_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5664_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5665_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5665_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5668_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5668_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5670_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5670_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5672_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5672_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5676_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5676_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5686_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5686_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5687_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5687_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5701_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5701_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5704_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5704_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5730_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5730_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5735_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5735_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5753_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5753_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5763_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5763_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5766_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5766_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5776_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5776_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5779_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5779_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5783_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5783_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5789_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5789_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5792_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5792_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5824_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5824_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5826_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5826_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5836_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5836_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5840_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5840_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5841_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5841_th.jpg
+      </thumbnail>
+    </media>
+  <media>	
+      <fullsize>
+        gallery/DSC_5848_main.jpg
+      </fullsize>
+      <thumbnail>
+        gallery/DSC_5848_th.jpg
+      </thumbnail>
+    </media>
+  
+</gallery>
+
+
