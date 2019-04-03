@@ -1,0 +1,246 @@
+body{
+	background-color: #222;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.movingLayer{
+	position:absolute;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	transform:translate(0,0);
+}
+
+#wrapper{
+  z-index:1000;
+	left:0px;
+	top:0px;
+  position:absolute;
+	overflow:hidden;
+	background:none;
+  /* border: 3px solid orange; */
+  border:none;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.cf {
+  margin:0 auto;
+}
+.movingLayer.cf img {
+  position:absolute;
+  left:0;
+  /* width:150px; */
+  -webkit-transition: opacity 0.8s ease-in-out;
+  -moz-transition: opacity 0.8s ease-in-out;
+  -o-transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
+  transition-timing-function: ease;
+}
+.movingLayer.cf img.top:hover {
+  opacity:0;
+}
+
+#layer000 {
+	z-index: 0;
+	left: 0;
+	top: 0;
+	width: 150%; height: 150%;
+	background-image:url(../images/jgg-photo.png);
+	background-size: 100%;
+}
+#layer010 {
+	z-index:10;
+	width:2068px; height:1456px;
+	left:0;
+	top:0;
+	background-image:url(../images/bldgs-bgc.png);
+}
+#layer020 {
+	z-index:20;
+	width:1789px; height:1174px;
+	left:0;
+	top:0;
+	background-image:url(../images/bldgs-03.png);
+}
+#layer050 {
+	z-index:50;
+	/* width:6437px; height:3482px; */
+  width:12000px; height:6000px;
+	left:0;
+	top:0;
+	/* background-image:url(../images/clouds-a.png); */
+	background-image:url(../images/clouds-a2-4000w-tiny.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#layer100 {
+	z-index:100;
+	width:410px; height:1600px;
+	left:0;
+	top:0;
+	transition: opacity 1s;
+}
+#layer200 {
+	z-index:200;
+	width:360px; height:1064px;
+	left:0;
+	top:0;
+	transition: opacity 1s;
+}
+#layer500 {
+	z-index:500;
+	width:360px; height:1064px;
+	left:0;
+	top:0;
+	transition: opacity 1s;
+}
+
+#me {
+	z-index: 10000;
+  position: absolute;
+	/* float:left; */
+  top: 0;
+  left: 0;
+  background: none;
+  overflow: hidden;
+  /* background-color: rgba(255 50 50 0.2); */
+}
+
+h1, h2, h5 {
+	font-family:'Lato', 'Oswald', 'Archivo Narrow', 'Open Sans', arial, sans-serif;
+	letter-spacing: -2px;
+	margin: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+h1 {
+	font-size: 45px;
+	line-height: 42px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+h1, h5 {
+  color: #202026;
+}
+
+.sunBox {
+  width: 590px;
+	height: 480px;
+	position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+	right: -160px;
+  top: -170px;
+  background: none;
+  border-radius: 5px;
+  color: #777;
+  cursor: pointer;
+}
+/* .sunBox:hover{
+	cursor:auto;
+} */
+.animatedSun > * {
+  position: absolute;
+  display: inline-block;
+  visibility: hidden;
+  border: 0;
+  z-index: 5;
+}
+/* the image that will show while waiting for javascript to load */
+.animatedSun > .poster {
+  position: static;
+  visibility: visible;
+}
+/* spritesheets will rely on left/top positioning */
+.animatedSun[data-spritesize] > * {
+  position: relative;
+}
+
+#jellyfish {
+	position:absolute;
+	z-index:5000;
+	width:90%; height:80%;
+	left:5%; top:10%;
+	visibility:hidden;
+}
+#jellyfish-inner {
+	width:100%; height:100%;
+	background-image:url(../images/jellyfish.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	overflow:scroll;
+}
+
+#contact {
+	position:absolute;
+	z-index:500;
+	width:50%; height:60%;
+	left:25%; top:20%;
+	visibility:hidden;
+}
+#contact-inner {
+	width:100%; height:100%;
+	background-color: #222;
+	overflow:scroll;
+}
+.contact-label {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 300;
+	letter-spacing: 0px;
+}
+input, textarea {
+	width: 90%;
+	font-family: 'Lato', 'Open Sans', 'Archivo Narrow', arial, sans-serif;
+	color: black;
+	background-color: white;
+	text-indent: 0px;
+	display: inline-block;
+	margin: 0 20px;
+	font: 11px;
+	height: 20px;
+	border: 0;
+	padding: 5px 10px;
+	position: relative;
+}
+button {
+	margin: 20px;
+}
+
+#parahelion {
+	position:absolute;
+	z-index:5000;
+	width:90%; height:80%;
+	left:5%; top:10%;
+	visibility:hidden;
+}
+#parahelion-inner {
+	width:100%; height:100%;
+	background-image:url(../images/parahelion.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	overflow:scroll;
+}
+#close, #close2, #close3 {
+	float:right;
+	margin: 10px;
+}
+.whitish {
+	color:#EEE;
+}
