@@ -1,5 +1,5 @@
 .DS_Store
-/instructions
-/galleria-old
-/gallery
+instructions/
+galleria-old/
+gallery/
 MyXmlFile.xml
