@@ -226,6 +226,7 @@ include 'generate-xml.php';
 			</div>
 		</div>
 
+
 		<div class="clear promo-icons pad-top-shrink">
 			<div class="hpad promo-center">
 				<div class="portfolio-card center break-center">
@@ -247,6 +248,46 @@ include 'generate-xml.php';
             </p>
           </div>
 				</div>
+
+				<div class="portfolio-card center break-center">
+					<a href="portfolio/portal-logo-animation" target="_blank">
+            <div class="pc-image pc-portal-logo-animation">&nbsp;</div>
+          </a>
+          <a href="portfolio/portal-logo-animation" target="_blank">
+    				<h3 class="white-alt pad-top-20">
+              Portal Logo Animation
+            </h3>
+          </a>
+          <div class="pc-text">
+            <h4>
+              App: Javascript<br />
+							Tools: Adobe Edge Animate
+            </h4>
+            <p>
+              A simple, clean logo animation using Javascript and CSS.
+            </p>
+          </div>
+				</div>
+
+				<!-- <div class="portfolio-card center break-center">
+					<a href="portfolio/parahelion" target="_blank">
+            <div class="pc-image pc-parahelion">&nbsp;</div>
+          </a>
+          <a href="portfolio/parahelion" target="_blank">
+    				<h3 class="white-alt pad-top-20">
+              Parahelion
+            </h3>
+          </a>
+          <div class="pc-text">
+            <h4>
+              Arduino App: C++<br />
+							&nbsp;
+            </h4>
+            <p>
+              A dynamic project for creating unique photographic images using long-exposures, animation, and movement. The camera sensor is the canvas.
+            </p>
+          </div>
+				</div> -->
 
 
 			</div>
