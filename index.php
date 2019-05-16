@@ -166,7 +166,7 @@ include 'generate-xml.php';
               An ongoing project under development since 10/17, Portal is a CRM for bootcamps and smaller schools, facilitating grading, attendance, content distribution, and teacher-student interaction.
             </p>
             <p>
-              While actively developing this project with DevPoint Labs, I assumed the role of lead developer among the students. Portal has scaled seamlessly to comprise 18 PostgreSQL tables and over 100 ReactJS components written by over 20 developers.
+              While actively developing this project with DevPoint Labs, I functioned as lead developer among the students. Portal has scaled essentially seamlessly to comprise 18 PostgreSQL tables and over 100 ReactJS components written by over 20 developers.
             </p>
             <p>
               You can log in as an admin with user: "admin@admin.com" and password: "password", or as a student with user: "dj@teacher.com" and password: "password".
@@ -223,6 +223,32 @@ include 'generate-xml.php';
             </p>
           </div>
 				</div>
+			</div>
+		</div>
+
+		<div class="clear promo-icons pad-top-shrink">
+			<div class="hpad promo-center">
+				<div class="portfolio-card center break-center">
+					<a href="portfolio/parahelion" target="_blank">
+            <div class="pc-image pc-parahelion">&nbsp;</div>
+          </a>
+          <a href="portfolio/parahelion" target="_blank">
+    				<h3 class="white-alt pad-top-20">
+              Parahelion
+            </h3>
+          </a>
+          <div class="pc-text">
+            <h4>
+              Arduino App: C++<br />
+							&nbsp;
+            </h4>
+            <p>
+              A dynamic project for creating unique photographic images using long-exposures, animation, and movement. The camera sensor is the canvas.
+            </p>
+          </div>
+				</div>
+
+
 			</div>
 		</div>
 

@@ -91,14 +91,14 @@ include 'generate-xml.php';
 		<div class="width-50">
 			<div class="hpad">
 				<h1 class="white">
-				  <span class="text-color-on-white">Perihelion &mdash;</span><br />
+				  <span class="text-color-on-white">Parahelion &mdash;</span><br />
           Y axis: 144 pixels.<br />X axis: infinite.
 				</h1>
 				<h3 class="white">
 					Put the camera on a tripod, open the shutter for a few seconds or a few minutes, and draw.
 				</h3>
 				<div class="text white">
-					<p>This one-meter strip of 144 RGB LEDs is mounted on a rig I made from <a target="_blank" href="https://www.makerbeam.com/">MakerBeam</a> components, along with a couple of ABS enclosures and a big 5V battery. The LEDs are controlled either by a Raspberry Pi located on one end of the rig, which is running <a target="_blank" href="https://learn.adafruit.com/dotstar-pi-painter/overview">Dotstar Pi Painter</a>, a project published by <a target="_blank" href="https://www.adafruit.com/">Adafruit</a>; or by an Arduino board located at the other end, running procedural code I wrote in C++. Click the thumbnails to the left to see the images.</p>
+					<p>This one-meter strip of 144 RGB LEDs is mounted on a rig I made from <a target="_blank" href="https://www.makerbeam.com/">MakerBeam</a> components, along with a couple of ABS enclosures and a big 5V battery. The LEDs are controlled either by a Raspberry Pi located on one end of the rig, which is running <a target="_blank" href="https://learn.adafruit.com/dotstar-pi-painter/overview">Dotstar Pi Painter</a>, a project published by <a target="_blank" href="https://www.adafruit.com/">Adafruit</a>; or by an Arduino board located at the other end, running procedural code I wrote in C++ &mdash; vertical bars of color growing and shrinking, their endpoints defined by sine waves. Click the thumbnails to the left to see the images.</p>
 				</div>
 			</div>
 		</div>
