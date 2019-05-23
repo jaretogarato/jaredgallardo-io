@@ -1,0 +1,109 @@
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html{
+  background-color:#777;
+  /* border: 10px solid #F00; */
+}
+body{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 10px solid #F00; */
+}
+
+#container{
+  flex: 1;
+  min-height: 100%;
+  margin: 0; padding: 0; border: 0;
+  background: radial-gradient(#777, #111);
+}
+#frame{
+  background-color:#ADD;
+  /* width:838px; */
+  height:400px;
+  overflow:hidden;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 50px; */
+  margin-top: 0;
+	z-index: 100;
+  box-shadow:2px 0px 70px #111;
+}
+#playPause{
+  position: relative;
+  left: auto;
+	right: auto;
+  top:10px;
+  z-index:1500;
+}
+#yoursvg{
+	background-image: url("../images/circle-01.png");
+	background-size: contain;
+	transform-origin: 50% 50%;
+	margin-top: -50px;
+	opacity: 0.25;
+	transform: scale(3, 3);
+	-ms-transform: scale(3, 3); /* IE 9 */
+	-webkit-transform: scale(3, 3); /* Safari and Chrome */
+	-o-transform: scale(3, 3); /* Opera */
+	-moz-transform: scale(3, 3); /* Firefox */
+}
+.coicle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	transform-origin: center center;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+#slider{
+  position:relative;
+  width:700px;
+  top:20px;
+  left:25px;
+}
+.ui-slider .ui-slider-handle {
+  width: 40px !important;
+  margin-left: -20px !important;
+  height:40px !important;
+  margin-top:-10px !important;
+}
+button {
+  width:100px;
+  padding:10px;
+}
+.box {
+	background: url("../images/mega-man.png");
+	width: 258px;
+	height: 237px;
+	position: absolute;
+	opacity: 0;
+	/* left: 50%;
+	-webkit-transform: translate(-50%, -75%);
+          transform: translate(-50%, -75%); */
+}
+.copy{
+  width: 100%;
+  margin-top: 30px;
+  padding: 0;
+  text-align: center;
+  align: center;
+  /* border: 1px solid red; */
+}
+.typewriter{
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align:center;
+  width: 100%;
+  line-height: 1.4em;
+}
+.typewriter > strong{
+  font-size: 1.2em;
+}

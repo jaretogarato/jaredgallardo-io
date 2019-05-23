@@ -725,27 +725,27 @@ button:hover.button-dark {
 }
 
 .icon-facebook {
-	background-image:url(images/icon_facebook.png);
+	background-image:url(../images/icon_facebook.png);
 }
 
 .icon-twitter {
-	background-image:url(images/icon_twitter.png);
+	background-image:url(../images/icon_twitter.png);
 }
 
 .icon-linkedin {
-	background-image:url(images/icon_linkedin.png);
+	background-image:url(../images/icon_linkedin.png);
 }
 
 .icon-google {
-	background-image:url(images/icon_google.png);
+	background-image:url(../images/icon_google.png);
 }
 
 .icon-vimeo {
-	background-image:url(images/icon_vimeo.png);
+	background-image:url(../images/icon_vimeo.png);
 }
 
 .icon-youtube {
-	background-image:url(images/icon_youtube.png);
+	background-image:url(../images/icon_youtube.png);
 }
 
 
@@ -767,7 +767,7 @@ button:hover.button-dark {
 	display:table;
 	width:100%;
 	height:100%;
-	background-image:url(images/bg_home.jpg);
+	background-image:url(../images/bg_home.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -905,7 +905,7 @@ a:hover.menu {
 	cursor:default;
 	width:30px;
 	height:32px !important;
-	background-image:url(images/colors.png);
+	background-image:url(../images/colors.png);
 	background-repeat:no-repeat;
 }
 
@@ -1004,24 +1004,24 @@ a:hover.color-picker {
 	width:100%;
 	height:100%;
 	background-color:transparent;
-	background-image:url(images/trans.gif);
+	background-image:url(../images/trans.gif);
 }
 
 div:hover.gallery-th-photo {
-	background-image:url(images/bg_tint.png);
+	background-image:url(../images/bg_tint.png);
 }
 
 .gallery-th-video {
 	width:100%;
 	height:100%;
 	background-color:transparent;
-	background-image:url(images/controls_play.png);
+	background-image:url(../images/controls_play.png);
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
 div:hover.gallery-th-video {
-	background-image:url(images/controls_play_over.png);
+	background-image:url(../images/controls_play_over.png);
 	background-position:center center;
 }
 
@@ -1143,10 +1143,10 @@ a:hover.social-crew {
 }
 
 .crew-1 {
-	background-image:url(images/crew-mumblypeg.jpg);
+	background-image:url(../images/crew-mumblypeg.jpg);
 }
 .crew-2 {
-	background-image:url(images/crew-aquasquatch.jpg);
+	background-image:url(../images/crew-aquasquatch.jpg);
 }
 
 
@@ -1160,7 +1160,7 @@ a:hover.social-crew {
 */
 
 .bg-about {
-	background-image:url(images/bg_about.jpg);
+	background-image:url(../images/bg_about.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -1202,7 +1202,7 @@ a:hover.social-crew {
 	width:200px;
 	height:200px;
 	margin:auto;
-	background-image:url(images/it-yes.png);
+	background-image:url(../images/it-yes.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 }
@@ -1217,7 +1217,7 @@ a:hover.social-crew {
 	width:200px;
 	height:200px;
 	margin:auto;
-	background-image:url(images/it-no.png);
+	background-image:url(../images/it-no.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 }
@@ -1231,7 +1231,7 @@ a:hover.social-crew {
 	width:200px;
 	height:200px;
 	margin:auto;
-	background-image:url(images/it-tbd.png);
+	background-image:url(../images/it-tbd.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 }
@@ -1257,19 +1257,19 @@ a:hover.social-crew {
   background-size:contain;
 }
 .pc-portal {
-  background-image:url(images/portfolio-thumb-portal.png);
+  background-image:url(../images/portfolio-thumb-portal.png);
 }
 .pc-parahelion {
-  background-image:url(images/portfolio-thumb-parahelion.png);
+  background-image:url(../images/portfolio-thumb-parahelion.png);
 }
 .pc-frequency-reach {
-  background-image:url(images/portfolio-thumb-frequency-reach.png);
+  background-image:url(../images/portfolio-thumb-frequency-reach.png);
 }
 .pc-parallax-city {
-  background-image:url(images/portfolio-thumb-parallax-city.png);
+  background-image:url(../images/portfolio-thumb-parallax-city.png);
 }
 .pc-portal-logo-animation {
-  background-image:url(images/portfolio-thumb-portal-logo-animation.png);
+  background-image:url(../images/portfolio-thumb-portal-logo-animation.png);
 }
 
 
@@ -1285,7 +1285,7 @@ a:hover.social-crew {
 
 .bg-contact {
 	background-color:#000000;
-	background-image:url(images/bg_contact.jpg);
+	background-image:url(../images/bg_contact.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -1394,7 +1394,7 @@ input:focus.input-offset {
 	letter-spacing:0px;
 	position:relative;
 	top:-20px;
-	background-image:url(images/trans.gif);
+	background-image:url(../images/trans.gif);
 }
 
 .textarea-underline {
@@ -1417,7 +1417,7 @@ input:focus.input-offset {
 	letter-spacing:0px;
 	position:relative;
 	top:-20px;
-	background-image:url(images/trans.gif);
+	background-image:url(../images/trans.gif);
 }
 
 .pad-bottom-contact {
@@ -1433,7 +1433,7 @@ input:focus.input-offset {
 .bg-socnet-ghost {
 	display:table;
 	width:100%;
-	background-image:url(images/bg_ghost.png);
+	background-image:url(../images/bg_ghost.png);
 }
 
 .socnet {
@@ -1655,7 +1655,7 @@ a:hover.social-footer {
 	padding:25px;
 	background-color:#29292f;
 	text-align:center;
-	background-image:url(images/hide_slideshow.png);
+	background-image:url(../images/hide_slideshow.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	border-radius:50px;
@@ -1674,7 +1674,7 @@ div:hover#hide-slideshow {
 	padding:25px;
 	background-color:#29292f;
 	text-align:center;
-	background-image:url(images/show_captions.png);
+	background-image:url(../images/show_captions.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	border-radius:50px;
@@ -1694,7 +1694,7 @@ div:hover#toggle-captions {
 	top:0px;
 	background-color:#29292f;
 	text-align:center;
-	background-image:url(images/arrow_left.png);
+	background-image:url(../images/arrow_left.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	border-radius:50px;
@@ -1713,7 +1713,7 @@ div:hover#gallery-left {
 	top:0px;
 	background-color:#29292f;
 	text-align:center;
-	background-image:url(images/arrow_right.png);
+	background-image:url(../images/arrow_right.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	border-radius:50px;
@@ -1733,7 +1733,7 @@ div:hover#gallery-right {
 	background-color:#ffffff;
 	display:table;
 	text-align:center;
-	background-image:url(images/hide_text.png);
+	background-image:url(../images/hide_text.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	border-radius:50px;

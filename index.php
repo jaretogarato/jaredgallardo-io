@@ -21,8 +21,10 @@ include 'generate-xml.php';
 	<!-- DISABLE COMPATIBILITY MODE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=9" />
 	<!-- CSS -->
-	<link href="style.css" type="text/css" media="screen" rel="stylesheet" />
-	<link href="responsive.css" type="text/css" media="screen" rel="stylesheet" />
+	<link href="css/style.css" type="text/css" media="screen" rel="stylesheet" />
+	<link href="css/responsive.css" type="text/css" media="screen" rel="stylesheet" />
+	<link href="css/pace.css" type="text/css" media="screen" rel="stylesheet" />
+
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100italic,200italic,300italic,400italic,600italic,700italic,800italic,100,200,300,400,600,700,800' rel='stylesheet' type='text/css' />
@@ -57,6 +59,7 @@ include 'generate-xml.php';
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/detect_browser.js"></script>
 	<script type="text/javascript" src="js/detect_os.js"></script>
+
 	<!-- js/functions.js and js/email.js are loaded at the bottom of this page -->
 	<!-- html5.js for IE less than 9 -->
 	<!--[if lt IE 9]>
@@ -199,10 +202,10 @@ include 'generate-xml.php';
           </div>
 				</div>
 				<div class="portfolio-card center break-center">
-					<a href="http://www.jaredgallardo.io/portfolio/parallax-city/" target="_blank">
+					<a href="portfolio/parallax-city/" target="_blank">
             <div class="pc-image pc-parallax-city">&nbsp;</div>
           </a>
-          <a href="http://www.jaredgallardo.io/portfolio/parallax-city/" target="_blank">
+          <a href="portfolio/parallax-city/" target="_blank">
   					<h3 class="white-alt pad-top-20">
               Parallax City
             </h3>
@@ -244,7 +247,7 @@ include 'generate-xml.php';
 							&nbsp;
             </h4>
             <p>
-              A dynamic project for creating unique photographic images using long-exposures, animation, and movement. The camera sensor is the canvas.
+              A dynamic project for creating unique photographic images using long exposures, animation, and movement. The camera sensor is the canvas.
             </p>
           </div>
 				</div>
