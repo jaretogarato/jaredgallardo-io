@@ -267,7 +267,28 @@ include 'generate-xml.php';
 							Tools: Adobe Edge Animate
             </h4>
             <p>
-              A simple, clean logo animation using Javascript and CSS.
+              A simple, clean logo animation using Javascript and CSS, designed for a product launch demo. Scales to full viewport width and is vertically scrollable to allow logo positioning.
+            </p>
+          </div>
+				</div>
+
+
+				<div class="portfolio-card center break-center">
+					<a href="portfolio/springrings" target="_blank">
+            <div class="pc-image pc-springrings">&nbsp;</div>
+          </a>
+          <a href="portfolio/springrings" target="_blank">
+    				<h3 class="white-alt pad-top-20">
+              "SpringRings" Animation
+            </h3>
+          </a>
+          <div class="pc-text">
+            <h4>
+              App: Javascript<br />
+							Tools: Greensock JS
+            </h4>
+            <p>
+              Fluid movement based on a few random number ranges applied to a few variables: location, delay, staggering, size, and speed. 
             </p>
           </div>
 				</div>
